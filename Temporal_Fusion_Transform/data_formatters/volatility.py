@@ -23,7 +23,7 @@ class VolatilityFormatter(GenericDataFormatter):
         ('midprice', DataTypes.REAL_VALUED, InputTypes.KNOWN_INPUT),
         ('id', DataTypes.REAL_VALUED, InputTypes.ID),
         ('time', DataTypes.REAL_VALUED, InputTypes.TIME),
-        ('rolling_volatility', DataTypes.REAL_VALUED, InputTypes.TARGET),
+        ('rolling_volatility_20', DataTypes.REAL_VALUED, InputTypes.TARGET),
         ('STOCK', DataTypes.CATEGORICAL, InputTypes.STATIC_INPUT),
 
     ]
