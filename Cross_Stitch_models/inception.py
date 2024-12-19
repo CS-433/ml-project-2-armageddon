@@ -39,6 +39,6 @@ class InceptionModule(nn.Module):
         
         # Concatenate branches along channel dimension
         outputs = torch.cat([branch1, branch2, branch3], dim=1).squeeze(3)  # Concatenate along channels (dim=1)       
-
         output_drop = self.dropout(outputs)
         return output_drop
+  
